@@ -135,6 +135,10 @@ body{
    display: none; 
    }
 
+   /* To remove background color in search input */
+   input[type="search"]:active , input[type="search"]:focus{
+       background:transparent;
+   }
 .formalign {
     margin-left: -25%;
     
@@ -421,8 +425,7 @@ hr{
     }
     .search{
         margin-left: 0.7em;
-        height: 1.2em;
-       
+        height: 1.2em;  
     }
 
     .imgsearch, .imgmic{
