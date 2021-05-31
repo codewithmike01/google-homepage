@@ -392,7 +392,7 @@ hr{
 
 }
 
-@media (max-width:409px){
+@media (max-width:419px){
 
    
     .googleimg{
@@ -441,7 +441,7 @@ hr{
        font-size: 0.5rem;
    }
     .belowlink{
-        font-size: 0.5rem;
+        font-size: 0.49rem;
     }
 
     footer{
