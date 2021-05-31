@@ -24,7 +24,13 @@ body{
     margin-top: 2.5em;
 }
 
-.gcolor{
+.googleimg{
+    aspect-ratio: auto 272 / 92;
+    height: 92px;
+    width: 272px;  
+}
+
+/* .gcolor{
     color: #4285F4;
 }
 
@@ -38,7 +44,7 @@ body{
 
 .lcolor {
     color: #34A853;
-}
+} */
 
 .googlesearch{
     width: 55%;
@@ -75,7 +81,7 @@ body{
 }
 
 .googleapp{
-    margin-top:32%;
+    margin-top:20%;
     opacity: 0.4;
     padding:0.4em 0.3em 0.2em 0.3em;
     border-radius: 50%;
@@ -168,7 +174,7 @@ body{
     font-size: 0.7rem;
     width: 100%;
     justify-content: center;  
-    margin-bottom: 5em;
+    margin-bottom: 7em;
 }
 
 .lang{
@@ -259,7 +265,10 @@ hr{
 /* Media query using a Desktop first approach */
 
 @media (max-width:760px){
-    
+    .googleimg{
+        height: 80px;
+        width: 224px;  
+    }
     .headGoogle{
         font-size: 0.79rem;
         margin-top: 7em;
@@ -326,7 +335,10 @@ hr{
     .userinfo ul{
         font-size: 0.6rem;
     }
-    
+    .googleimg{
+        height: 60px;
+        width: 190px;  
+    }
     .letterborder{
         padding:0.3em 0.5em 0.3em 0.5em;
         color: white;
@@ -381,6 +393,13 @@ hr{
 }
 
 @media (max-width:409px){
+
+   
+    .googleimg{
+        height: 45px;
+        width: 140px;  
+        margin-top: 10%;
+    }
     .userinfo ul{
         font-size: 0.4rem;
     }
@@ -452,6 +471,13 @@ hr{
 }
 
 @media (max-width:300px){
+
+    .googleimg{
+        height: 30px;
+        width: 110px;  
+        margin-top: 10%;
+        margin-bottom: -4%;
+    }
     .belowlink{
         font-size: 0.4rem;
     }
@@ -466,11 +492,12 @@ hr{
     }
 
     .language{
-        margin-bottom: 35em;
+        margin-bottom: 30em;
         margin-top: -1%;
     }
 
     footer{
+        margin-top: 90%;
         padding-bottom: 0.3%;
     }
 
@@ -498,15 +525,22 @@ hr{
     }
 
     .language{
-        margin-bottom: 56em;
+        margin-bottom: 6em;
     }
     
     footer{
+        margin-top: -55%;
         padding-bottom: -0.9%;
     }
 
     .belowlink{
         font-size: 0.3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .belowlink section{
+        margin-bottom: 0.8em;
     }
 
     h3{
@@ -514,7 +548,7 @@ hr{
     }
 
     .language{
-        margin-bottom: 60em;
+        margin-bottom: 90em;
     }
 }
 
