@@ -68,7 +68,24 @@ body{
     height: 2.7em;
     border: none;
 }
+/* tooltip effect on Google apps */
+.toolTipText{
+    position: absolute;
+    top: 4em;
+    right: 2.6em;
+    color: white;
+    padding: 0.47em 0.7em;
+    border-radius: 5px;
+    background-color: rgba(39, 38, 38,0.9);
+    font-size: 0.95em;
+    letter-spacing: 0.12em;
+    visibility: hidden; 
+}
 
+.tooltip:hover .toolTipText{
+    transition-delay: 0.7s;
+    visibility: visible;
+}
 
 .userinfo ul{
     position: absolute;
@@ -97,7 +114,7 @@ body{
 .letterborder{
     border: 1px solid #5D4037;
     border-radius: 50%;
-    padding:0.9em 0.8em 0.7em 0.7em;
+    padding:0.7em;
     background-color: #5D4037;
     color: white;
     font-size: .9rem;
