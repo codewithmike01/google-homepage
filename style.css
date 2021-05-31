@@ -135,9 +135,11 @@ body{
    display: none; 
    }
 
+  
+
    /* To remove background color in search input */
    input[type="search"]:active , input[type="search"]:focus{
-       background:none;
+       background-color:none;
    }
 .formalign {
     margin-left: -25%;
