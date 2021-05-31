@@ -46,6 +46,9 @@ body{
     color: #34A853;
 } */
 
+.userinfo li{
+    cursor:pointer;
+}
 .googlesearch{
     width: 55%;
     border: 1px solid #E8EAED;
@@ -68,6 +71,19 @@ body{
     height: 2.7em;
     border: none;
 }
+
+.userinfo ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.userinfo ul li a:hover{
+    text-decoration: underline;
+}
+
+.ga{
+    color: white;
+}
 /* tooltip effect on Google apps */
 .toolTipText{
     position: absolute;
@@ -80,6 +96,25 @@ body{
     font-size: 0.95em;
     letter-spacing: 0.12em;
     visibility: hidden; 
+}
+
+
+.tooltipemail{
+    position: absolute;
+    top: 4em;
+    right: 1em;
+    line-height: 1.4em;
+    background-color: rgba(75, 73, 73, 0.7);
+    letter-spacing: .07em;
+    color: rgb(218, 214, 214);
+    padding: 0.5em 0.8em;
+    border-radius: 8px;
+    visibility: hidden;
+}
+
+.tooltipletter:hover .tooltipemail{
+    transition-delay: 0.7s;
+    visibility: visible;
 }
 
 .tooltip:hover .toolTipText{
