@@ -141,6 +141,16 @@ body{
    input[type="search"]:active , input[type="search"]:focus{
        background-color:none;
    }
+
+   /* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+    transition: background-color 5000s ease-in-out 0s;
+}
+
 .formalign {
     margin-left: -25%;
     
@@ -400,6 +410,9 @@ hr{
 
 @media (max-width:419px){
 
+    input[type=search]{
+        padding:.76em;
+    }
    
     .googleimg{
         height: 45px;
